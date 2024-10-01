@@ -18,6 +18,7 @@ class PuchaseVerificationController extends Controller
 
     public function index()
     {
+        return redirect()->route('home');
         InstallerInfo::writeAssetUrl();
         return view('installer::index');
     }

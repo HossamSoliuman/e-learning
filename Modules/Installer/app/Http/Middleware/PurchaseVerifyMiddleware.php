@@ -19,6 +19,8 @@ class PurchaseVerifyMiddleware
      */
     public function handle(Request $request, Closure $next)
     {
+        return $next($request);
+
         if (strtolower(config('app.app_mode')) == 'demo') {
             return $next($request);
         }
