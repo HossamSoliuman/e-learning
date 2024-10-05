@@ -40,10 +40,10 @@
                             <img src="{{ asset('frontend/img/banner/h2_banner_icon.svg') }}" alt="img"
                                 class="injectable">
                         </div>
-                        <div class="content">
+                        {{-- <div class="content">
                             <span>{{ __('Total Instructors') }}</span>
                             <h4 class="title">{{ $hero->translation?->total_instructor }}</h4>
-                        </div>
+                        </div> --}}
                     </div>
                     <div class="banner__author">
                         <img src="{{ asset('frontend/img/banner/banner_shape02.svg') }}" alt="shape"
