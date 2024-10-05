@@ -34,21 +34,21 @@
                             {{ __('Enrolled Students') }}</p>
                         <img src="{{ asset($hero->enroll_students_image) }}" alt="img">
                     </div> --}}
-                    <div class="banner__student instructor aos-init aos-animate" data-aos="fade-left"
+                    {{-- <div class="banner__student instructor aos-init aos-animate" data-aos="fade-left"
                         data-aos-delay="200">
                         <div class="icon">
                             <img src="{{ asset('frontend/img/banner/h2_banner_icon.svg') }}" alt="img"
                                 class="injectable">
                         </div>
-                        {{-- <div class="content">
+                        <div class="content">
                             <span>{{ __('Total Instructors') }}</span>
                             <h4 class="title">{{ $hero->translation?->total_instructor }}</h4>
-                        </div> --}}
-                    </div>
-                    <div class="banner__author">
+                        </div>
+                    </div> --}}
+                    {{-- <div class="banner__author">
                         <img src="{{ asset('frontend/img/banner/banner_shape02.svg') }}" alt="shape"
                             class="arrow-shape tg-motion-effects3">
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
