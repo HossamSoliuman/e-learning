@@ -28,12 +28,12 @@
                     <img src="{{ asset('frontend/img/banner/banner_shape02.png') }}" alt="shape"
                         class="shape small-shape tg-motion-effects3">
 
-                    <div class="about__enrolled students aos-init aos-animate" data-aos="fade-right"
+                    {{-- <div class="about__enrolled students aos-init aos-animate" data-aos="fade-right"
                         data-aos-delay="200">
                         <p class="title"><span>{{ $hero->translation?->total_student }}</span>
                             {{ __('Enrolled Students') }}</p>
                         <img src="{{ asset($hero->enroll_students_image) }}" alt="img">
-                    </div>
+                    </div> --}}
                     <div class="banner__student instructor aos-init aos-animate" data-aos="fade-left"
                         data-aos-delay="200">
                         <div class="icon">
