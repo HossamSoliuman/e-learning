@@ -53,6 +53,6 @@
             </div>
         </div>
     </div>
-    <img src="{{ asset('frontend/img/banner/banner_shape01.svg') }}" alt="shape" class="line-shape"
-        data-aos="fade-right" data-aos-delay="1600">
+    {{-- <img src="{{ asset('frontend/img/banner/banner_shape01.svg') }}" alt="shape" class="line-shape"
+        data-aos="fade-right" data-aos-delay="1600"> --}}
 </section>
