@@ -144,7 +144,7 @@
                                 </li>
                             @endif
 
-                            @if ($featuredCourse?->category_five_status == 1)
+                            @if ($featuredCourse?->category_five_status == 1 && $featuredCourse?->category_five_status != null)
                                 <li class="nav-item" role="presentation">
                                     @php
                                         $categoryFive = Modules\Course\app\Models\CourseCategory::with(['translation'])
