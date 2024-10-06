@@ -167,7 +167,7 @@
                                     <button class="nav-link" id="development-tab" data-bs-toggle="tab"
                                         data-bs-target="#categoryFive-tab-pane" type="button" role="tab"
                                         aria-controls="development-tab-pane" aria-selected="false">
-                                        {{ $categoryFive->translation?->name }}
+                                        {{ $categoryFive?->translation?->name }}
                                     </button>
                                 </li>
                             @endif
