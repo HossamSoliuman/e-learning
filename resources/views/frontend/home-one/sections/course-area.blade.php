@@ -139,7 +139,7 @@
                                     <button class="nav-link" id="categoryFour-tab" data-bs-toggle="tab"
                                         data-bs-target="#categoryFour-tab-pane" type="button" role="tab"
                                         aria-controls="categoryFour-tab-pane" aria-selected="false">
-                                        {{ $categoryFour->translation->name }}
+                                        {{ $categoryFour->translation?->name }}
                                     </button>
                                 </li>
                             @endif
