@@ -17,4 +17,6 @@ yarn-error.log
 /.idea
 /.vscode
 /database/backup/
-e-learning-installed.zip
+/lang
+/public
+/storage
